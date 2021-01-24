@@ -96,7 +96,7 @@
     "aliases": "Aliase",
     "description": "Beschreibung",
     "usage": "Verwendung",
-    "cooldown": "**Cooldown:** {COOLDOWN} seconds",
+    "cooldown": "**Cooldown:** {COOLDOWN} Sekunden",
     "countonly": "\n:Warnung: **Dieser Befehl kann nur in Kanälen verwendet werden, wo gezählt wird.**",
     "adminonly": ":Warnung: **Dieser Befehl kann nur von Nutzern mit der \"Manage Channel\" Berechtigung ausgeführt werden.**",
     "command": {
