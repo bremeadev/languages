@@ -1,8 +1,32 @@
 {
-  "languagenamelong": "Hrvatska",
+  "languagenamelong": "Hrvatski",
   "languagenameshort": "hr",
   "flag": "🇭🇷",
   "authors": [
-    "none"
-  ]
+    "Tony M.#0001"
+  ],
+  "global": {
+    "followingstatus": "Ažuriranja statusa za <@727569067895947383> će automatski biti objavljenji ovdje. Za isključivanje ovih ažuriranja, otiđite u postavke Integracija vašeg servera.",
+    "notfollowingstatus": "Kako biste primali ažuriranja statusa za <@727569067895947383>, molimo napišite: `c;settings status` u kanalu u kojem želite primati ažuriranja statusa.",
+    "disabled": "onemogućeno",
+    "enabled": "omogućeno",
+    "countingchanneltopic": "**Brojimo do {GOAL}!** Omogućeno s <@727569067895947383>",
+    "countingchannelname": "brojimo-do-{GOAL}",
+    "usernotfound": {
+      "title": "Greška 404 <:flushed_think:735637678137016381>",
+      "description": [
+        "Jao! Nismo pronašli tog korisnika ili taj korisnik prvi put koristi CountBot.",
+        "",
+        "**Trebate pomoć? [Pridružite se našem službenom serveru.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "noserverpermission": {
+      "title": "Greška 403 <:flushed_think:735637678137016381>",
+      "description": [
+        "Jao! Čini se da nemate pravilnu dozvolu za korištenje ove naredbe. **Potvrdite da imate \"Manage Server\" dozvolu.**",
+        "",
+        "**Trebate Pomoć? [Pridružite se našem službenom serveru.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  }
 }
