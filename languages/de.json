@@ -224,7 +224,7 @@
     },
     "alreadyselected": {
       "description": [
-        "**Die Sprache wird aktuell schon genützt**",
+        "**Die Sprache wird aktuell schon genutzt**",
         "",
         "**Sprache:** `{CURRENTLANGUAGE}`",
         "",
@@ -238,7 +238,8 @@
         "Wenn du bei den Übersetzungen des Bots mithelfen möchtest, betrete unseren [Support Server]({INVITE})",
         "",
         "Englisch ist die Hauptsprache des Bots und wird voll unterstützt. Manche Befehle werden in Englisch angezeigt auch wenn die Sprache umgestellt worden ist"
-      ]
+      ],
+      "footer": "⏲️ Letztes Update: {TIME}"
     },
     "invalidpage": {
       "description": [
@@ -270,7 +271,7 @@
         "**Verfügbare Befehle:**",
         "`c;language set` - Ändert die Sprache (`{CURRENTLANGUAGE}`)",
         "`c;language help` - Zeigt dir Informationen über die Sprachen von Countbot",
-        "`c;language info` - Zeigt die mehr Informationen über eine Sprache",
+        "`c;language info` - Zeigt dir mehr Informationen über eine Sprache",
         "`c;language list` - Zeigt dir alle Sprachen, die CountBot versteht",
         "",
         " **Bitte kontaktiere uns wenn du helfen möchtest!**"
