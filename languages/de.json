@@ -14,7 +14,7 @@
     "countingchanneltopic": "**Zählt bis {GOAL}!** Unterstützt von <@727569067895947383>",
     "countingchannelname": "zählt-bis-{GOAL}",
     "usernotfound": {
-      "title": "Fehler 404 <:flushed_think:735637678137016381>",
+      "title": "Fehler 404 <:uhh:810311297936785439>",
       "description": [
         "Ups! Dieser Nutzer wurde nicht gefunden oder hat noch nie mit CountBot interagiert",
         "",
@@ -22,7 +22,7 @@
       ]
     },
     "noserverpermission": {
-      "title": "Fehler 403 <:flushed_think:735637678137016381>",
+      "title": "Fehler 403 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als ob du nicht genug Rechte besitzt um diesen Befehl auszuführen. **Du benötigst die \"Manage Server\" Berechtigung.**",
         "",
@@ -30,7 +30,7 @@
       ]
     },
     "nochannelpermission": {
-      "title": "Fehler 403 <:flushed_think:735637678137016381>",
+      "title": "Fehler 403 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als ob du nicht genug Rechte besitzt um diesen Befehl auszuführen. **Du benötigst die \"Manage Server\" Berechtigung.**",
         "",
@@ -38,7 +38,7 @@
       ]
     },
     "nodevpermission": {
-      "title": "Fehler 403 <:flushed_think:735637678137016381>",
+      "title": "Fehler 403 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als ob du nicht genug Rechte besitzt um diesen Befehl auszuführen. **Du benötigst die \"Manage Server\" Berechtigung.**",
         "",
@@ -46,7 +46,7 @@
       ]
     },
     "nobotpermission": {
-      "title": "Fehler 403 <:flushed_think:735637678137016381>",
+      "title": "Fehler 403 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als hätte ich nicht genug Rechte um diesen Befehl auszuführen. **Stelle sicher, dass ich die \"Manage Channel\" Berechtigung besitze und dass meine Role höher ist als die Bot Rolle von diesem Server.**",
         "",
@@ -54,7 +54,7 @@
       ]
     },
     "alreadyhaschannel": {
-      "title": "Fehler 403 <:flushed_think:735637678137016381>",
+      "title": "Fehler 403 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als würde bereits ein Kanal zum zählen existieren - {CHANNEL}. Gerade wird nur ein Kanal pro Server erlaubt!",
         "",
@@ -62,7 +62,7 @@
       ]
     },
     "notacountingchannel": {
-      "title": "Fehler 400 <:flushed_think:735637678137016381>",
+      "title": "Fehler 400 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als wäre dieser Channel nicht für mich gedacht **Stelle sicher dass die letzte Nachricht eine valide und positive Zahl ist.**",
         "",
@@ -88,7 +88,7 @@
     "message": "**Item gekauft!**"
   },
   "help": {
-    "helptitle": "CountBot Hilfe",
+    "helptitle": "CountBot Hilfe <:countbotpixel:800542958248001557>",
     "notacommand": {
       "description": [
         "Hmm... Dieser Befehl existiert nicht. Überprüfe deine Rechtschreibung und versuche es erneut."
@@ -103,9 +103,9 @@
     "command": {
       "title": "{COMMAND} | {HELPTITLE}"
     },
-    "title": "CountBot Hilfe",
+    "title": "CountBot Hilfe <:countbotpixel:800542958248001557>",
     "mainmenu": {
-      "title": "CountBot Hilfe",
+      "title": "CountBot Hilfe <:countbotpixel:800542958248001557>",
       "description": "Benutze `c;h <befehl>` um mehr über einen Befehl zu lernen | **[Du benötigst Hilfe? Klicke Hier!](https://discord.gg/meWdwaJ)**",
       "fields": [
         {
@@ -135,7 +135,7 @@
     }
   },
   "info": {
-    "title": "Informationen über den Countbot",
+    "title": "Informationen über den Countbot <:countbotpixel:800542958248001557>",
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
     },
@@ -176,7 +176,7 @@
   },
   "inventory": {
     "noitems": {
-      "title": "Fehler 404 <:flushed_think:735637678137016381>",
+      "title": "Fehler 404 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als besitzt du keine Items. **Du kannst Items im [CountBot Shop](https://bremea.com/countbot/shop) kaufen.**",
         "",
@@ -318,7 +318,7 @@
   },
   "merge": {
     "notagoal": {
-      "title": "Fehler 400 <:flushed_think:735637678137016381>",
+      "title": "Fehler 400 <:uhh:810311297936785439>",
       "description": [
         "Ups! Bitte gib eine gültige Zahl für das Ziel an! Beispiel: `c;merge 500`",
         "",
@@ -345,7 +345,7 @@
   },
   "new": {
     "invalidnumber": {
-      "title": "Fehler 400 <:flushed_think:735637678137016381>",
+      "title": "Fehler 400 <:uhh:810311297936785439>",
       "description": [
         "Ups! Bitte gib eine valide Zahl an. Beispiel: `c;new 500`",
         "",
@@ -381,7 +381,7 @@
   },
   "setgoal": {
     "invalidnumber": {
-      "title": "Fehler 400 <:flushed_think:735637678137016381>",
+      "title": "Fehler 400 <:uhh:810311297936785439>",
       "description": [
         "Ups! Bitte gib eine Zahl höher als das derzeitiges Ziel an. Beispiel: `c;setgoal {EXAMPLEGOAL}`",
         "",
@@ -420,7 +420,7 @@
   },
   "use": {
     "noitemid": {
-      "title": "Fehler 400 <:flushed_think:735637678137016381>",
+      "title": "Fehler 400 <:uhh:810311297936785439>",
       "description": [
         "Ups! Bitte gib eine valide Item ID an. (Benutze `c;inventory` um eine Liste von Items und deren IDs in deinem Inventar zu finden). Beispiel: `c;use p-s5`",
         "",
@@ -428,7 +428,7 @@
       ]
     },
     "notininventory": {
-      "title": "Fehler 404 <:flushed_think:735637678137016381>",
+      "title": "Fehler 404 <:uhh:810311297936785439>",
       "description": [
         "Ups! Es sieht so aus als hättest du kein Item mit der ID `{ITEM}` (Du kannst `c;inventory` benutzen, um eine Liste mit Items und deren IDs in deinem INventar zu finden).",
         "",
