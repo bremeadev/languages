@@ -131,6 +131,11 @@
             "value": "`c;shop`, `c;inventory`, `c;use`",
             "inline": true
           }
+          },
+          {
+            "name": "\u200b",
+            "value": "**[Allez voir la Beta de MixBot]! https://dsc.gg/mixbot](https://dsc.gg/mixbot)**",
+            "inline": false
         ]
       }
     },
