@@ -215,40 +215,40 @@
     },
     "invalidlanguage": {
       "description": [
-        "**Invalid Language Provided:** `{INPUT}`",
+        "**Lingua invalida:** `{INPUT}`",
         "",
-        "**Current:** `{CURRENTLANGUAGE}`",
+        "**Corrente:** `{CURRENTLANGUAGE}`",
         "",
-        "**Available Languages:**",
+        "**Lingue disponibili:**",
         "{AVAILABLELANGUAGES}",
         "",
-        "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
+        "L'inglese è la lingua primaria del bot ed è pienamente supportata. Alcuni comandi possono comparire in inglese anche se hai inpostato la tua lingua principale ad un'altra."
       ]
     },
     "alreadyselected": {
       "description": [
-        "**Language Already Selected**",
+        "**Linguaggio già selezionato**",
         "",
-        "**Language:** `{CURRENTLANGUAGE}`",
+        "**Linguaggio:** `{CURRENTLANGUAGE}`",
         "",
-        "Please select a new language for your server."
+        "Per favore seleziona un nuovo linguaggio per il tuo server."
       ]
     },
     "updatedlanguage": {
       "description": [
-        "**Language Updated:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
+        "**Lingua aggiornata:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
         "",
-        "If you want to contribute with translations in your native language, join our [Support Server]({INVITE})",
+        "Se vuoi contribuire con traduzioni nella tua lingua madre, unisciti al nostro [Server di supporto]({INVITE})",
         "",
-        "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
+        "L'inglese è la lingua primaria del bot ed è pienamente supportata. Alcuni comandi possono comparire in inglese anche se hai inpostato la tua lingua principale ad un'altra."
       ],
-      "footer": "Last Updated: {TIME}"
+      "footer": "Ultimo aggiornamento: {TIME}"
     },
     "invalidpage": {
       "description": [
-        "**Invalid Page Provided:** `{INPUT}`",
+        "**Pagina invalida:** `{INPUT}`",
         "",
-        "Please provide a page number between **1** and **{TOTALPAGES}**."
+        "Per favore fornisci un numero intero da **1** a **{TOTALPAGES}**."
       ]
     },
     "languageslist": {
@@ -257,45 +257,45 @@
         "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
       },
       "author": {
-        "name": "CountBot - Languages List ({PAGE}/{TOTALPAGES})"
+        "name": "CountBot - Lista di linguaggi ({PAGE}/{TOTALPAGES})"
       },
-      "footer": "Last Updated: {TIME}"
+      "footer": "Ultimo aggiornamento: {TIME}"
     },
     "menu": {
       "description": [
-        "Here you can manage the language of <@727569067895947383>!",
+        "Qua puoi controllare la lingua di <@727569067895947383>!",
         "",
-        "**Available Commands:**",
-        "`c;language set` - Set the language (`{CURRENTLANGUAGE}`)",
-        "`c;language help` - CountBot Languages Information",
-        "`c;language info` - Specific Language Details",
-        "`c;language list` - View Available Languages",
+        "**Comandi disponibili:**",
+        "`c;language set` - Imposta la linga (`{CURRENTLANGUAGE}`)",
+        "`c;language help` - CountBot informazioni sui linguaggi",
+        "`c;language info` - Informazioni su una lingua specifica",
+        "`c;language list` - Visualizza i linguaggi disponibili",
         "",
-        " **Please contact us if you'd like to help!**"
+        " **Per favore contattaci se vorresti aiutarci!**"
       ],
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       },
       "author": {
-        "name": "CountBot - Languages Menu"
+        "name": "CountBot - Menu dei linguaggi"
       },
-      "footer": "Last Updated: {TIME}"
+      "footer": "Ultimo aggiornamento: {TIME}"
     },
     "help": {
       "description": [
-        "**Hey! Thanks for opening this page!**",
+        "**Hey! Grazie per aver aperto questa pagina!**",
         "",
-        "The CountBot Team has devoted many hours to being able to support other languages. Please consider taking the opportunity to help out!",
+        "Il team di CountBot ha impiegato tante ore per supportare più lingue possibili. Per favore considera di aiutarci!",
         "",
-        "[**Github Repository**](https://github.com/bremeadev/languages)",
+        "[**Repository Github**](https://github.com/bremeadev/languages)",
         "",
-        "**What do you get in return?**",
-        "- Translator Role in our [Support Server](https://bremea.com/discord)",
-        "- Free CountBot Coins",
-        "- Access to beta features",
-        "- Much more coming soon",
+        "**Cosa ricevi?**",
+        "- Ruolo di \"Traduttore\" nel nostro [Server di supporto](https://bremea.com/discord)",
+        "- Monete CountBot gratuite",
+        "- Accesso a programmi beta",
+        "- Di più in futuro",
         "",
-        " **Please contact us if you'd like to help!**"
+        " **Per favore contattaci se vorresti aiutarci!**"
       ],
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
@@ -305,34 +305,34 @@
       "description": [
         "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
         "",
-        "**Progress:** {PROGRESS}%",
-        "**Authors:**",
+        "**Progresso:** {PROGRESS}%",
+        "**Autori:**",
         "{AUTHORS}"
       ]
     }
   },
   "merge": {
     "notagoal": {
-      "title": "Error 400 <:uhh:810311297936785439>",
+      "title": "Errore 400 <:uhh:810311297936785439>",
       "description": [
-        "Yikes! Please enter a valid number for the goal. Example: `c;merge 500`",
+        "Oh no! Per favore inserisci un numero intero positivo per l'obbiettivo. Esempio: `c;merge 500`",
         "",
         "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "setup": {
-      "title": "Count to {GOAL}",
+      "title": "Conta fino a {GOAL}",
       "description": [
-        "**{USER} just setup CountBot in this channel!**",
-        "The goal is to count to {GOAL} Can you do it?"
+        "**{USER} ha appena configurato CountBot in questo canale!**",
+        "L'obbiettivo è di contare fino a {GOAL}. Ci riuscirai?"
       ],
       "footer": {
-        "text": "Tip: Admins can make the challenge harder by changing the slowmode."
+        "text": "Suggerimento: Gli amministratori possono rendere il gioco più difficile cambiando la modalità lenta."
       }
     }
   },
   "milestones": {
-    "title": "Milestones {ACTION}",
+    "title": "Traguardi {ACTION}",
     "description": [
       "**Milestones have been {ACTION} for this counting channel.** You can change this at any time by running `c;milestones` again.",
       "Action preformed by {USER}."
