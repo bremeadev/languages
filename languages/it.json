@@ -54,7 +54,7 @@
     "alreadyhaschannel": {
       "title": "Errore 403 <:uhh:810311297936785439>",
       "description": [
-        "Oh no! Sembra che ci sia già un counting channel in questo server. - {CHANNEL}. In questo momento abbiamo un limite di un counting channel per ogni server.",
+        "Oh no! Sembra che ci sia già un canale di conteggio in questo server. - {CHANNEL}. In questo momento abbiamo un limite di un canale di conteggio per ogni server.",
         "",
         "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
@@ -62,7 +62,7 @@
     "notacountingchannel": {
       "title": "Errore 400 <:uhh:810311297936785439>",
       "description": [
-        "Oh no! Sembra che questo non sia un counting channel. **Assicurati che l'ultimo messaggio inviato sia un numero intero positivo.**",
+        "Oh no! Sembra che questo non sia un canale di conteggio. **Assicurati che l'ultimo messaggio inviato sia un numero intero positivo.**",
         "",
         "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
@@ -96,7 +96,7 @@
     "description": "Descrizione",
     "usage": "Utilizzo",
     "cooldown": "**Cooldown:** {COOLDOWN} secondi",
-    "countonly": "\n:warning: **Questo comando può essere utilizzato solamente in counting channels.**",
+    "countonly": "\n:warning: **Questo comando può essere utilizzato solamente in canale di conteggios.**",
     "adminonly": ":warning: **Questo comando può essere utilizzato solamente da membri con il permesso \"Gestire canali\".**",
     "command": {
       "title": "{COMMAND} | {HELPTITLE}"
@@ -110,7 +110,7 @@
           "name": "Comandi di inizializzazione",
           "value": [
             "`c;new <numero>` Crea un nuovo canale il cui scopo è contare fino al numero determinato.",
-            "`c;merge` Configura il bot ad utilizzare un counting channel già creato."
+            "`c;merge` Configura il bot ad utilizzare un canale di conteggio già creato."
           ],
           "inline": false
         },
@@ -142,7 +142,7 @@
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
     },
-    "description": "CountBot è un facile da usare, altamente configurabile, e super divertente bot che gestisce i messaggi di un counting channel.",
+    "description": "CountBot è un facile da usare, altamente configurabile, e super divertente bot che gestisce i messaggi di un canale di conteggio.",
     "fields": [
       {
         "name": "Generale",
@@ -334,7 +334,7 @@
   "milestones": {
     "title": "Traguardi {ACTION}",
     "description": [
-      "**I traguardi sono stati {ACTION} per questo counting channel.** Puoi cambiarli eseguendo `c;milestones` ancora.",
+      "**I traguardi sono stati {ACTION} per questo canale di conteggio.** Puoi cambiarli eseguendo `c;milestones` ancora.",
       "Azione eseguita da {USER}."
     ]
   },
@@ -348,14 +348,14 @@
       ]
     },
     "created": {
-      "title": "Counting Channel creato",
+      "title": "canale di conteggio creato",
       "description": "**Oh guarda, un nuovo canale - {CHANNEL}!** L'obbiettivo è di contare fino a {GOAL}, ci riuscirai?"
     },
     "newmessage": {
-      "rawtext": "Un counting channel selvaggio è appena arrivato! **Comincia contando da 1.**",
+      "rawtext": "Un canale di conteggio selvaggio è appena arrivato! **Comincia contando da 1.**",
       "title": "Conta fino a {GOAL}",
       "description": [
-        "**{USER} ha appena creato un nuovo counting channel!**",
+        "**{USER} ha appena creato un nuovo canale di conteggio!**",
         "L'obbiettivo è di contare fino a {GOAL}. Ci riuscirai?"
       ],
       "text": "Suggerimento: Gli amministratori possono rendere il gioco più difficile cambiando la modalità lenta."
