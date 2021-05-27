@@ -3,7 +3,439 @@
   "languagenameshort": "it",
   "flag": "🇮🇹",
   "locale": "it-IT",
-  "authors": [
-    "none"
-  ]
+  "authors": ["macedonga#5797"],
+  "global": {
+    "followingstatus": "Aggiornamenti di stato per <@727569067895947383> saranno automaticamente inviati qua. Per disabilitarli, vai nella sezione \"Integrazioni\" nelle impostazioni per questo canale.",
+    "notfollowingstatus": "Per essere notificati dei cambiamenti di stato di <@727569067895947383>, invia : `c;settings status` nel canale in cui desideri che vengano inviati gli aggiornamenti.",
+    "disabled": "disabilitato",
+    "enabled": "abilitato",
+    "countingchanneltopic": "**Conta fino a {GOAL}!** Alimentato da <@727569067895947383>",
+    "countingchannelname": "conta-fino-a-{GOAL}",
+    "usernotfound": {
+      "title": "Error 404 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Quell'utente non è stato trovato o non ha mai interagito con CountBot.",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "noserverpermission": {
+      "title": "Errore 403 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che tu non abbia i permessi necessari per eseguire questo comando. **Assicurati di avere il permesso \"Gestire server\".**",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nochannelpermission": {
+      "title": "Errore 403 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che tu non abbia i permessi necessari per eseguire questo comando. **Assicurati di avere il permesso \"Gestire canali\".**",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nodevpermission": {
+      "title": "Errore 403 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che tu non abbia i permessi necessari per eseguire questo comando. **Soltanto lo staff di bremea developement può usare questo comando.**",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nobotpermission": {
+      "title": "Errore 403 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che io non abbia i permessi necessari per eseguire questo comando. **Assicurati che io abbia il permesso \"Gestire canali\", e che il mio ruolo sia più alto del ruolo del bot del tuo server.**",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "alreadyhaschannel": {
+      "title": "Errore 403 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che ci sia già un canale di conteggio in questo server. - {CHANNEL}. In questo momento abbiamo un limite di un canale di conteggio per ogni server.",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "notacountingchannel": {
+      "title": "Errore 400 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che questo non sia un canale di conteggio. **Assicurati che l'ultimo messaggio inviato sia un numero intero positivo.**",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  },
+  "buyitem": {
+    "embed": {
+      "title": "Hai comprato: {ITEM}",
+      "description": [
+        "{ITEM} è stato comprato via lo [Shop di CountBot](https://bremea.com/countbot/shop)",
+        "",
+        "**Le tue monete:** <:countbot_coin2:771441683535495179>{COINS}",
+        "**Monete rimanenti: <:countbot_coin2:771441683535495179>{REMAINING}**",
+        "**Non hai ricevuto le tue monete? [Lasciaci sapere.](https://discord.gg/meWdwaJ)**"
+      ],
+      "timestamp": "{TIMESTAMP}",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
+    },
+    "message": "**Oggetto comprato!**"
+  },
+  "help": {
+    "helptitle": "Aiuto CountBot <:countbotpixel:800542958248001557>",
+    "notacommand": {
+      "description": [
+        "Hmm... sembra che quel comando non esista. Controlla di averlo scritto correttamente e riprova."
+      ]
+    },
+    "aliases": "Alias",
+    "description": "Descrizione",
+    "usage": "Utilizzo",
+    "cooldown": "**Cooldown:** {COOLDOWN} secondi",
+    "countonly": "\n:warning: **Questo comando può essere utilizzato solamente in canale di conteggios.**",
+    "adminonly": ":warning: **Questo comando può essere utilizzato solamente da membri con il permesso \"Gestire canali\".**",
+    "command": {
+      "title": "{COMMAND} | {HELPTITLE}"
+    },
+    "title": "Aiuto CountBot <:countbotpixel:800542958248001557>",
+    "mainmenu": {
+      "title": "Aituo CountBot <:countbotpixel:800542958248001557>",
+      "description": "Usa `c;h <comando>` per sapere di più su un comando | **[Serve aiuto? Clicca qui.](https://discord.gg/meWdwaJ)**",
+      "fields": [
+        {
+          "name": "Comandi di inizializzazione",
+          "value": [
+            "`c;new <numero>` Crea un nuovo canale il cui scopo è contare fino al numero determinato.",
+            "`c;merge` Configura il bot ad utilizzare un canale di conteggio già creato."
+          ],
+          "inline": false
+        },
+        {
+          "name": "Comandi di configurazione",
+          "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`, `c;language`",
+          "inline": true
+        },
+        {
+          "name": "Comandi vari",
+          "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`",
+          "inline": true
+        },
+        {
+          "name": "Comandi dello shop",
+          "value": "`c;shop`, `c;inventory`, `c;use`",
+          "inline": true
+        },
+        {
+          "name": "\u200b",
+          "value": "**[Dai un occhiata a MixBot Beta! https://dsc.gg/mixbot](https://dsc.gg/mixbot)**",
+          "inline": false
+        }
+      ]
+    }
+  },
+  "info": {
+    "title": "Informazioni su CountBot <:countbotpixel:800542958248001557>",
+    "thumbnail": {
+      "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+    },
+    "description": "CountBot è un facile da usare, altamente configurabile, e super divertente bot che gestisce i messaggi di un canale di conteggio.",
+    "fields": [
+      {
+        "name": "Generale",
+        "value": [
+          "Prefix: `c;`",
+          "Lista dei comandi: `c;help`",
+          "Libreria: `{LIBRARY}`",
+          "Versione Node: `{NODEVERSION}`",
+          "Versione del bot: `{BOTVERSION}`"
+        ],
+        "inline": true
+      },
+      {
+        "name": "Statistiche",
+        "value": [
+          "Server: `{SERVERS}`",
+          "Utenti: `{USERS}`",
+          "Canali: `{CHANNELS}`"
+        ],
+        "inline": true
+      },
+      {
+        "name": "Link",
+        "value": [
+          "Changelog: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)",
+          "Supporto: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)",
+          "Statcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)",
+          "top.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)",
+          "Discord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)"
+        ],
+        "inline": false
+      }
+    ]
+  },
+  "inventory": {
+    "noitems": {
+      "title": "Errore 404 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che il tuo inventorio sia vuoto. **Puoi comprare oggetti nello [Shop CountBot](https://bremea.com/countbot/shop).**",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "hasitems": {
+      "title": "Il tuo inventorio",
+      "description": "Puoi comprare più oggetti con `c;shop`",
+      "footer": "'...e {NUMBER} altri"
+    }
+  },
+  "invite": {
+    "title": "Clicca qui per invitare CountBot <:join:771461201443422208>",
+    "thumbnail": {
+      "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+    },
+    "description": [
+      "**Grazie per aver invitato CountBot!**",
+      "",
+      "**Confuso?** Unisciti al nostro [server di supporto.](https://discord.gg/w9BqPr8)",
+      "**Non capisci come configurarmi?** [Clicca qui.](https://bots.discordlabs.org/bot/countbot)",
+      "**Vuoi un'altro modo di supportare CountBot?** [Considera votarmi.](https://top.gg/bot/727569067895947383/vote)"
+    ]
+  },
+  "language": {
+    "outdated": "Non aggiornato",
+    "uptodate": "Aggiornato",
+    "statements": {
+      "togithub": "Clicca su un linguaggio per essere portato sul repository GitHub.",
+      "set": "Per impostare una lingua per questo server usa la sua abbreviazione.",
+      "info": "Scrivi l'abbreviazione della lingua per maggiori informazioni."
+    },
+    "invalidlanguage": {
+      "description": [
+        "**Lingua invalida:** `{INPUT}`",
+        "",
+        "**Corrente:** `{CURRENTLANGUAGE}`",
+        "",
+        "**Lingue disponibili:**",
+        "{AVAILABLELANGUAGES}",
+        "",
+        "L'inglese è la lingua primaria del bot ed è pienamente supportata. Alcuni comandi possono comparire in inglese anche se hai inpostato la tua lingua principale ad un'altra."
+      ]
+    },
+    "alreadyselected": {
+      "description": [
+        "**Linguaggio già selezionato**",
+        "",
+        "**Linguaggio:** `{CURRENTLANGUAGE}`",
+        "",
+        "Per favore seleziona un nuovo linguaggio per il tuo server."
+      ]
+    },
+    "updatedlanguage": {
+      "description": [
+        "**Lingua aggiornata:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
+        "",
+        "Se vuoi contribuire con traduzioni nella tua lingua madre, unisciti al nostro [Server di supporto]({INVITE})",
+        "",
+        "L'inglese è la lingua primaria del bot ed è pienamente supportata. Alcuni comandi possono comparire in inglese anche se hai inpostato la tua lingua principale ad un'altra."
+      ],
+      "footer": "Ultimo aggiornamento: {TIME}"
+    },
+    "invalidpage": {
+      "description": [
+        "**Pagina invalida:** `{INPUT}`",
+        "",
+        "Per favore fornisci un numero intero da **1** a **{TOTALPAGES}**."
+      ]
+    },
+    "languageslist": {
+      "description": ["**{UPTODATE}**", "", "{STATEMENT}", "", "{LANGUAGES}"],
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
+      },
+      "author": {
+        "name": "CountBot - Lista di linguaggi ({PAGE}/{TOTALPAGES})"
+      },
+      "footer": "Ultimo aggiornamento: {TIME}"
+    },
+    "menu": {
+      "description": [
+        "Qua puoi controllare la lingua di <@727569067895947383>!",
+        "",
+        "**Comandi disponibili:**",
+        "`c;language set` - Imposta la linga (`{CURRENTLANGUAGE}`)",
+        "`c;language help` - CountBot informazioni sui linguaggi",
+        "`c;language info` - Informazioni su una lingua specifica",
+        "`c;language list` - Visualizza i linguaggi disponibili",
+        "",
+        " **Per favore contattaci se vorresti aiutarci!**"
+      ],
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      },
+      "author": {
+        "name": "CountBot - Menu dei linguaggi"
+      },
+      "footer": "Ultimo aggiornamento: {TIME}"
+    },
+    "help": {
+      "description": [
+        "**Hey! Grazie per aver aperto questa pagina!**",
+        "",
+        "Il team di CountBot ha impiegato tante ore per supportare più lingue possibili. Per favore considera di aiutarci!",
+        "",
+        "[**Repository Github**](https://github.com/bremeadev/languages)",
+        "",
+        "**Cosa ricevi?**",
+        "- Ruolo di \"Traduttore\" nel nostro [Server di supporto](https://bremea.com/discord)",
+        "- Monete CountBot gratuite",
+        "- Accesso a programmi beta",
+        "- Di più in futuro",
+        "",
+        " **Per favore contattaci se vorresti aiutarci!**"
+      ],
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
+    },
+    "info": {
+      "description": [
+        "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
+        "",
+        "**Progresso:** {PROGRESS}%",
+        "**Autori:**",
+        "{AUTHORS}"
+      ]
+    }
+  },
+  "merge": {
+    "notagoal": {
+      "title": "Errore 400 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Per favore inserisci un numero intero positivo per l'obbiettivo. Esempio: `c;merge 500`",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "setup": {
+      "title": "Conta fino a {GOAL}",
+      "description": [
+        "**{USER} ha appena configurato CountBot in questo canale!**",
+        "L'obbiettivo è di contare fino a {GOAL}. Ci riuscirai?"
+      ],
+      "footer": {
+        "text": "Suggerimento: Gli amministratori possono rendere il gioco più difficile cambiando la modalità lenta."
+      }
+    }
+  },
+  "milestones": {
+    "title": "Traguardi {ACTION}",
+    "description": [
+      "**I traguardi sono stati {ACTION} per questo canale di conteggio.** Puoi cambiarli eseguendo `c;milestones` ancora.",
+      "Azione eseguita da {USER}."
+    ]
+  },
+  "new": {
+    "invalidnumber": {
+      "title": "Errore 400 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Per favore specifica un numero intero positivo. Esempio: `c;new 500`",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "created": {
+      "title": "canale di conteggio creato",
+      "description": "**Oh guarda, un nuovo canale - {CHANNEL}!** L'obbiettivo è di contare fino a {GOAL}, ci riuscirai?"
+    },
+    "newmessage": {
+      "rawtext": "Un canale di conteggio selvaggio è appena arrivato! **Comincia contando da 1.**",
+      "title": "Conta fino a {GOAL}",
+      "description": [
+        "**{USER} ha appena creato un nuovo canale di conteggio!**",
+        "L'obbiettivo è di contare fino a {GOAL}. Ci riuscirai?"
+      ],
+      "text": "Suggerimento: Gli amministratori possono rendere il gioco più difficile cambiando la modalità lenta."
+    }
+  },
+  "ping": {
+    "start": {
+      "title": "Pinging",
+      "description": "Un secondo... <a:loading2:771440180250017832>"
+    },
+    "end": {
+      "title": "Pinged",
+      "description": ["Ping pong, pong ping?", "**{PING}ms**"]
+    }
+  },
+  "setgoal": {
+    "invalidnumber": {
+      "title": "Errore 400 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Per favore inserisci un numero maggiore dell'obbiettivo attuale. Esempio: `c;setgoal 500`",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "extended": {
+      "title": "Obbiettivo aumentato",
+      "description": [
+        "**L'obbiettivo di questo canale è stato aumentato!** Il nuovo obbiettivo è di contare fino a {GOAL}.",
+        "Azione eseguita da {USER}."
+      ]
+    }
+  },
+  "shop": {
+    "mainmenu": {
+      "title": "Clicca qui per andare allo shop 🛒",
+      "url": "https://bremea.com/countbot/shop",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      },
+      "description": [
+        "**Lo shop di CountBot è disponibile a [https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**",
+        "",
+        "You can do `c;shop [query]` to search the shop for items and get links to buy them"
+      ]
+    }
+  },
+  "stats": {
+    "fetchingstats": {
+      "title": "Statistiche per {USERTAG}",
+      "description": [
+        "Sto cercando le statistiche, attendi prego... <a:loading2:771440180250017832>"
+      ]
+    }
+  },
+  "use": {
+    "noitemid": {
+      "title": "Errore 400 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Devi inserire un ID di un oggetto valido (esegui `c;inventory` per ricevere una lista di oggetti nel tuo inventorio e dei suoi ID). Esempio: `c;use p-s5`",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "notininventory": {
+      "title": "Errore 404 <:uhh:810311297936785439>",
+      "description": [
+        "Oh no! Sembra che tu non abbia nessun oggetto con l'ID `{ITEM}` (puoi eseguire `c;inventory` per ricevere una lista di oggetti nel tuo inventorio e dei suoi ID).",
+        "",
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  },
+  "vote": {
+    "title": "Clicca qui per votare CountBot",
+    "description": [
+      "**Vota per CountBot e ricevi dei regali!**",
+      "",
+      "<:uparrow:802686102254518322> **Badge votatore**",
+      "<a:coinspin:801831939626500166> **125 Monete**",
+      "<:bluesparkles:802686102153854976> **250 XP**"
+    ]
+  }
 }
