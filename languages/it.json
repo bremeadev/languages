@@ -334,37 +334,37 @@
   "milestones": {
     "title": "Traguardi {ACTION}",
     "description": [
-      "**Milestones have been {ACTION} for this counting channel.** You can change this at any time by running `c;milestones` again.",
-      "Action preformed by {USER}."
+      "**I traguardi sono stati {ACTION} per questo counting channel.** Puoi cambiarli eseguendo `c;milestones` ancora.",
+      "Azione eseguita da {USER}."
     ]
   },
   "new": {
     "invalidnumber": {
-      "title": "Error 400 <:uhh:810311297936785439>",
+      "title": "Errore 400 <:uhh:810311297936785439>",
       "description": [
-        "Yikes! Please enter a valid number. Example: `c;new 500`",
+        "Oh no! Per favore specifica un numero intero positivo. Esempio: `c;new 500`",
         "",
         "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "created": {
-      "title": "Counting Channel Created",
-      "description": "**Look, a brand new channel - {CHANNEL}!** The goal is to count to {GOAL}, can you make it?"
+      "title": "Counting Channel creato",
+      "description": "**Oh guarda, un nuovo canale - {CHANNEL}!** L'obbiettivo è di contare fino a {GOAL}, ci riuscirai?"
     },
     "newmessage": {
-      "rawtext": "A wild counting channel appeared! **Start counting with 1.**",
-      "title": "Count to {GOAL}",
+      "rawtext": "Un counting channel selvaggio è appena arrivato! **Comincia contando da 1.**",
+      "title": "Conta fino a {GOAL}",
       "description": [
-        "**{USER} just made a new counting channel!**",
-        "The goal is to count to {GOAL}. Can you do it?"
+        "**{USER} ha appena creato un nuovo counting channel!**",
+        "L'obbiettivo è di contare fino a {GOAL}. Ci riuscirai?"
       ],
-      "footer": "Tip: Admins can make the challenge harder by changing the slowmode."
+      "text": "Suggerimento: Gli amministratori possono rendere il gioco più difficile cambiando la modalità lenta."
     }
   },
   "ping": {
     "start": {
       "title": "Pinging",
-      "description": "One second... <a:loading2:771440180250017832>"
+      "description": "Un secondo... <a:loading2:771440180250017832>"
     },
     "end": {
       "title": "Pinged",
@@ -373,30 +373,30 @@
   },
   "setgoal": {
     "invalidnumber": {
-      "title": "Error 400 <:uhh:810311297936785439>",
+      "title": "Errore 400 <:uhh:810311297936785439>",
       "description": [
-        "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal 500`",
+        "Oh no! Per favore inserisci un numero maggiore dell'obbiettivo attuale. Esempio: `c;setgoal 500`",
         "",
         "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "extended": {
-      "title": "Goal extended",
+      "title": "Obbiettivo aumentato",
       "description": [
-        "**The goal of this channel has been changed!** The new goal is to count to {GOAL}.",
-        "Action preformed by {USER}."
+        "**L'obbiettivo di questo canale è stato aumentato!** Il nuovo obbiettivo è di contare fino a {GOAL}.",
+        "Azione eseguita da {USER}."
       ]
     }
   },
   "shop": {
     "mainmenu": {
-      "title": "Click Here to go to the Shop 🛒",
+      "title": "Clicca qui per andare allo shop 🛒",
       "url": "https://bremea.com/countbot/shop",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       },
       "description": [
-        "**The CountBot Shop is available at [https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**",
+        "**Lo shop di CountBot è disponibile a [https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**",
         "",
         "You can do `c;shop [query]` to search the shop for items and get links to buy them"
       ]
@@ -404,37 +404,37 @@
   },
   "stats": {
     "fetchingstats": {
-      "title": "Stats for {USERTAG}",
+      "title": "Statistiche per {USERTAG}",
       "description": [
-        "Fetching stats, please wait... <a:loading2:771440180250017832>"
+        "Sto cercando le statistiche, attendi prego... <a:loading2:771440180250017832>"
       ]
     }
   },
   "use": {
     "noitemid": {
-      "title": "Error 400 <:uhh:810311297936785439>",
+      "title": "Errore 400 <:uhh:810311297936785439>",
       "description": [
-        "Yikes! Please enter an item id (run `c;inventory` to get a list of items in your inventory and their IDs). Example: `c;use p-s5`",
+        "Oh no! Devi inserire un ID di un oggetto valido (esegui `c;inventory` per ricevere una lista di oggetti nel tuo inventorio e dei suoi ID). Esempio: `c;use p-s5`",
         "",
         "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "notininventory": {
-      "title": "Error 404 <:uhh:810311297936785439>",
+      "title": "Errore 404 <:uhh:810311297936785439>",
       "description": [
-        "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).",
+        "Oh no! Sembra che tu non abbia nessun oggetto con l'ID `{ITEM}` (puoi eseguire `c;inventory` per ricevere una lista di oggetti nel tuo inventorio e dei suoi ID).",
         "",
         "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     }
   },
   "vote": {
-    "title": "Click here to vote for CountBot",
+    "title": "Clicca qui per votare CountBot",
     "description": [
-      "**Vote for CountBot & Get Cool Rewards!**",
+      "**Vota per CountBot e ricevi dei regali!**",
       "",
-      "<:uparrow:802686102254518322> **Voter Badge**",
-      "<a:coinspin:801831939626500166> **125 Coins**",
+      "<:uparrow:802686102254518322> **Badge votatore**",
+      "<a:coinspin:801831939626500166> **125 Monete**",
       "<:bluesparkles:802686102153854976> **250 XP**"
     ]
   }
