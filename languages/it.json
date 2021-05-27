@@ -104,71 +104,71 @@
     "title": "Aiuto CountBot <:countbotpixel:800542958248001557>",
     "mainmenu": {
       "title": "Aituo CountBot <:countbotpixel:800542958248001557>",
-      "description": "Use `c;h <command>` to learn more about a command | **[Need help? Click here.](https://discord.gg/meWdwaJ)**",
+      "description": "Usa `c;h <comando>` per sapere di più su un comando | **[Serve aiuto? Clicca qui.](https://discord.gg/meWdwaJ)**",
       "fields": [
         {
-          "name": "Setup Commands",
+          "name": "Comandi di inizializzazione",
           "value": [
-            "`c;new <number>` Creates a new channel where the goal is to count to a number.",
-            "`c;merge` Sets up the bot in an extisting counting channel."
+            "`c;new <numero>` Crea un nuovo canale il cui scopo è contare fino al numero determinato.",
+            "`c;merge` Configura il bot ad utilizzare un counting channel già creato."
           ],
           "inline": false
         },
         {
-          "name": "Settings Commands",
+          "name": "Comandi di configurazione",
           "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`, `c;language`",
           "inline": true
         },
         {
-          "name": "Misc Commands",
+          "name": "Comandi vari",
           "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`",
           "inline": true
         },
         {
-          "name": "Item Commands",
+          "name": "Comandi dello shop",
           "value": "`c;shop`, `c;inventory`, `c;use`",
           "inline": true
         },
         {
           "name": "\u200b",
-          "value": "**[Check out the MixBot Beta! https://dsc.gg/mixbot](https://dsc.gg/mixbot)**",
+          "value": "**[Dai un occhiata a MixBot Beta! https://dsc.gg/mixbot](https://dsc.gg/mixbot)**",
           "inline": false
         }
       ]
     }
   },
   "info": {
-    "title": "CountBot Information <:countbotpixel:800542958248001557>",
+    "title": "Informazioni su CountBot <:countbotpixel:800542958248001557>",
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
     },
-    "description": "CountBot is an easy to-use, highly configurable, and super fun minigame bot that manages a counting channel.",
+    "description": "CountBot è un facile da usare, altamente configurabile, e super divertente bot che gestisce i messaggi di un counting channel.",
     "fields": [
       {
-        "name": "General",
+        "name": "Generale",
         "value": [
           "Prefix: `c;`",
-          "Help Command: `c;help`",
-          "Library: `{LIBRARY}`",
-          "Node Version: `{NODEVERSION}`",
-          "Bot Version: `{BOTVERSION}`"
+          "Lista dei comandi: `c;help`",
+          "Libreria: `{LIBRARY}`",
+          "Versione Node: `{NODEVERSION}`",
+          "Versione del bot: `{BOTVERSION}`"
         ],
         "inline": true
       },
       {
-        "name": "Statistics",
+        "name": "Statistiche",
         "value": [
-          "Servers: `{SERVERS}`",
-          "Users: `{USERS}`",
-          "Channels: `{CHANNELS}`"
+          "Server: `{SERVERS}`",
+          "Utenti: `{USERS}`",
+          "Canali: `{CHANNELS}`"
         ],
         "inline": true
       },
       {
-        "name": "Links",
+        "name": "Link",
         "value": [
           "Changelog: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)",
-          "Support: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)",
+          "Supporto: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)",
           "Statcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)",
           "top.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)",
           "Discord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)"
@@ -179,39 +179,39 @@
   },
   "inventory": {
     "noitems": {
-      "title": "Error 404 <:uhh:810311297936785439>",
+      "title": "Errore 404 <:uhh:810311297936785439>",
       "description": [
-        "Yikes! It doesn't look like you have any items in your inventory. **You can buy items at the [CountBot Shop](https://bremea.com/countbot/shop).**",
+        "Oh no! Sembra che il tuo inventorio sia vuoto. **Puoi comprare oggetti nello [Shop CountBot](https://bremea.com/countbot/shop).**",
         "",
-        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "hasitems": {
-      "title": "Your Inventory",
-      "description": "You can buy more items with `c;shop`",
-      "footer": "'...and {NUMBER} more"
+      "title": "Il tuo inventorio",
+      "description": "Puoi comprare più oggetti con `c;shop`",
+      "footer": "'...e {NUMBER} altri"
     }
   },
   "invite": {
-    "title": "Click here to invite CountBot <:join:771461201443422208>",
+    "title": "Clicca qui per invitare CountBot <:join:771461201443422208>",
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
     },
     "description": [
-      "**Thanks for inviting CountBot!**",
+      "**Grazie per aver invitato CountBot!**",
       "",
-      "**Confused?** Join our [support server.](https://discord.gg/w9BqPr8)",
-      "**Wondering how to set things up?** [Click here.](https://bots.discordlabs.org/bot/countbot)",
-      "**Want another way to support CountBot?** [Consider voting.](https://top.gg/bot/727569067895947383/vote)"
+      "**Confuso?** Unisciti al nostro [server di supporto.](https://discord.gg/w9BqPr8)",
+      "**Non capisci come configurarmi?** [Clicca qui.](https://bots.discordlabs.org/bot/countbot)",
+      "**Vuoi un'altro modo di supportare CountBot?** [Considera votarmi.](https://top.gg/bot/727569067895947383/vote)"
     ]
   },
   "language": {
-    "outdated": "Not Up To Date",
-    "uptodate": "Up To Date",
+    "outdated": "Non aggiornato",
+    "uptodate": "Aggiornato",
     "statements": {
-      "togithub": "Click on a language to be taken to the GitHub Repository.",
-      "set": "To set this server's language, type the abbreviation.",
-      "info": "Type the language abbreviation for more information."
+      "togithub": "Clicca su un linguaggio per essere portato sul repository GitHub.",
+      "set": "Per impostare una lingua per questo server usa la sua abbreviazione.",
+      "info": "Scrivi l'abbreviazione della lingua per maggiori informazioni."
     },
     "invalidlanguage": {
       "description": [
@@ -317,7 +317,7 @@
       "description": [
         "Yikes! Please enter a valid number for the goal. Example: `c;merge 500`",
         "",
-        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "setup": {
@@ -344,7 +344,7 @@
       "description": [
         "Yikes! Please enter a valid number. Example: `c;new 500`",
         "",
-        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "created": {
@@ -377,7 +377,7 @@
       "description": [
         "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal 500`",
         "",
-        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "extended": {
@@ -416,7 +416,7 @@
       "description": [
         "Yikes! Please enter an item id (run `c;inventory` to get a list of items in your inventory and their IDs). Example: `c;use p-s5`",
         "",
-        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     },
     "notininventory": {
@@ -424,7 +424,7 @@
       "description": [
         "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).",
         "",
-        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+        "**Serve aiuto? [Unisciti al nostro server di supporto.](https://discord.gg/w9BqPr8)**"
       ]
     }
   },
