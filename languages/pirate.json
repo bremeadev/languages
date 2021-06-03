@@ -4,6 +4,449 @@
   "flag": "🏴‍☠️",
   "locale": "en-US",
   "authors": [
-    "none"
-  ]
+    "foop#6142"
+  ],
+  "global": {
+    "followingstatus": "Status updates fer <@727569067895947383> will automatically be sent here. To disable them, go ter yer Integrations settings fer this here channel.",
+    "notfollowingstatus": "To be notified of <@727569067895947383>'s status updates, please type: `c;settings status` in the channel ye wish updates ter be posted in.",
+    "disabled": "disabled",
+    "enabled": "enabled",
+    "countingchanneltopic": "**Count ter {GOAL}!** Powered by <@727569067895947383>",
+    "countingchannelname": "count-to-{GOAL}",
+    "usernotfound": {
+      "title": "Error 404 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! That there user wasn't found or that there user hasn't interacted with CountBot before.",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "noserverpermission": {
+      "title": "Error 403 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It looks like ye don't have proper permissions ter run this here command. **Make sure ye have \"Manage Server\" permission.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nochannelpermission": {
+      "title": "Error 403 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It looks like ye don't have proper permissions ter run this here command. **Make sure ye have \"Manage Channel\" permission.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nodevpermission": {
+      "title": "Error 403 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It looks like ye don't have proper permissions ter run this here command. **Only bremea development staff can use this here command.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nobotpermission": {
+      "title": "Error 403 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It looks like I don't have proper permissions ter run this here command. **Make sure I have \"Manage Channel\" permission and me role be higher than yer server's bot role.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "alreadyhaschannel": {
+      "title": "Error 403 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It looks like ye already have a countin' channel runnin' in this here server - {CHANNEL}. Currently, we limit servers ter one countin' channel at a time.",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "notacountingchannel": {
+      "title": "Error 400 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It doesn't look like this here be a countin' channel. **Make sure the last message sent be a valid, positive integer.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  },
+  "buyitem": {
+    "embed": {
+      "title": "Ye bought: {ITEM}",
+      "description": [
+        "A {ITEM} was bought via the [CountBot Shop](https://bremea.com/countbot/shop)",
+        "",
+        "**Ye Coins:** <:countbot_coin2:771441683535495179>{COINS}",
+        "**Remainin' Coins: <:countbot_coin2:771441683535495179>{REMAINING}**",
+        "**Didn't get the item? [Let us know.](https://discord.gg/meWdwaJ)**"
+      ],
+      "timestamp": "{TIMESTAMP}",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
+    },
+    "message": "**Item purchased!**"
+  },
+  "help": {
+    "helptitle": "CountBot Help <:countbotpixel:800542958248001557>",
+    "notacommand": {
+      "description": [
+        "Hmm... it seems that there command doesn't exist. Check the spellin' and try again."
+      ]
+    },
+    "aliases": "Aliases",
+    "description": "Description",
+    "usage": "Usage",
+    "cooldown": "**Cooldown:** {COOLDOWN} seconds",
+    "countonly": "\n:warning: **This command can only be used in countin' channels.**",
+    "adminonly": ":warning: **This command can only be members who have \"Manage Channel\" permissions.**",
+    "command": {
+      "title": "{COMMAND} | {HELPTITLE}"
+    },
+    "title": "CountBot Help <:countbotpixel:800542958248001557>",
+    "mainmenu": {
+      "title": "CountBot Help <:countbotpixel:800542958248001557>",
+      "description": "Use `c;h <command>` ter learn more about a command | **[Need help? Click here.](https://discord.gg/meWdwaJ)**",
+      "fields": [
+        {
+          "name": "Setup Commands",
+          "value": [
+            "`c;new <number>` Creates a new channel where the goal be ter count ter a number.",
+            "`c;merge` Sets up the bot in an existin' countin' channel."
+          ],
+          "inline": false
+        },
+        {
+          "name": "Settings Commands",
+          "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`, `c;language`",
+          "inline": true
+        },
+        {
+          "name": "Misc Commands",
+          "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`",
+          "inline": true
+        },
+        {
+          "name": "Item Commands",
+          "value": "`c;shop`, `c;inventory`, `c;use`",
+          "inline": true
+        },
+        {
+          "name": "\u200b",
+          "value": "**[Check out the MixBot Beta! https://dsc.gg/mixbot](https://dsc.gg/mixbot)**",
+          "inline": false
+        }
+      ]
+    }
+  },
+  "info": {
+    "title": "CountBot Information <:countbotpixel:800542958248001557>",
+    "thumbnail": {
+      "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+    },
+    "description": "CountBot be an easy to-use, highly configurable, and super fun minigame bot that manages a countin' channel.",
+    "fields": [
+      {
+        "name": "General",
+        "value": [
+          "Prefix: `c;`",
+          "Help Command: `c;help`",
+          "Library: `{LIBRARY}`",
+          "Node Version: `{NODEVERSION}`",
+          "Bot Version: `{BOTVERSION}`"
+        ],
+        "inline": true
+      },
+      {
+        "name": "Statistics",
+        "value": [
+          "Servers: `{SERVERS}`",
+          "Users: `{USERS}`",
+          "Channels: `{CHANNELS}`"
+        ],
+        "inline": true
+      },
+      {
+        "name": "Links",
+        "value": [
+          "Changelog: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)",
+          "Support: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)",
+          "Statcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)",
+          "top.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)",
+          "Discord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)"
+        ],
+        "inline": false
+      }
+    ]
+  },
+  "inventory": {
+    "noitems": {
+      "title": "Error 404 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It doesn't look like ye have any items in yer inventory. **Ye can buy items at the [CountBot Shop](https://bremea.com/countbot/shop).**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "hasitems": {
+      "title": "Yer Inventory",
+      "description": "Ye can buy more items with `c;shop`",
+      "footer": "'...and {NUMBER} more"
+    }
+  },
+  "invite": {
+    "title": "Click here ter invite CountBot <:join:771461201443422208>",
+    "thumbnail": {
+      "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+    },
+    "description": [
+      "**Aye, many thanks fer invitin' CountBot!**",
+      "",
+      "**Confused?** Join our [support server.](https://discord.gg/w9BqPr8)",
+      "**Wonderin' how ter set things up?** [Click here.](https://bots.discordlabs.org/bot/countbot)",
+      "**Want another way ter support CountBot?** [Consider votin'.](https://top.gg/bot/727569067895947383/vote)"
+    ]
+  },
+  "language": {
+    "outdated": "Not Up To Date",
+    "uptodate": "Up To Date",
+    "statements": {
+      "togithub": "Click on a language ter be taken ter the GitHub Repository.",
+      "set": "To set this here server's language, type the abbreviation.",
+      "info": "Type the language abbreviation fer more information."
+    },
+    "invalidlanguage": {
+      "description": [
+        "**Invalid Language Provided:** `{INPUT}`",
+        "",
+        "**Current:** `{CURRENTLANGUAGE}`",
+        "",
+        "**Available Languages:**",
+        "{AVAILABLELANGUAGES}",
+        "",
+        "English be the primary language and fully supported. Some commands may appear in English even though yer language be set ter another."
+      ]
+    },
+    "alreadyselected": {
+      "description": [
+        "**Language Already Selected**",
+        "",
+        "**Language:** `{CURRENTLANGUAGE}`",
+        "",
+        "Please select a new language fer yer server."
+      ]
+    },
+    "updatedlanguage": {
+      "description": [
+        "**Language Updated:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
+        "",
+        "If ye want ter contribute with translations in yer native language, join our [Support Server]({INVITE})",
+        "",
+        "English be the primary language and fully supported. Some commands may appear in English even though yer language be set ter another."
+      ],
+      "footer": "Last Updated: {TIME}"
+    },
+    "invalidpage": {
+      "description": [
+        "**Invalid Page Provided:** `{INPUT}`",
+        "",
+        "Please provide a page number between **1** and **{TOTALPAGES}**."
+      ]
+    },
+    "languageslist": {
+      "description": [
+        "**{UPTODATE}**",
+        "",
+        "{STATEMENT}",
+        "",
+        "{LANGUAGES}"
+      ],
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
+      },
+      "author": {
+        "name": "CountBot - Languages List ({PAGE}/{TOTALPAGES})"
+      },
+      "footer": "Last Updated: {TIME}"
+    },
+    "menu": {
+      "description": [
+        "Here be where ye can manage the language of <@727569067895947383>!",
+        "",
+        "**Available Commands:**",
+        "`c;language set` - Set the language (`{CURRENTLANGUAGE}`)",
+        "`c;language help` - CountBot Languages Information",
+        "`c;language info` - Specific Language Details",
+        "`c;language list` - View Available Languages",
+        "",
+        " **Please contact us if ye'd like ter help!**"
+      ],
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      },
+      "author": {
+        "name": "CountBot - Languages Menu"
+      },
+      "footer": "Last Updated: {TIME}"
+    },
+    "help": {
+      "description": [
+        "**Ahoy there! Thanks fer openin' this here page!**",
+        "",
+        "The CountBot Team has devoted many hours ter bein' able ter support other languages. Please consider grabbin' the opportunity to help out!",
+        "",
+        "[**Github Repository**](https://github.com/bremeadev/languages)",
+        "",
+        "**What do ye get in return?**",
+        "- Translator Role in our [Support Server](https://bremea.com/discord)",
+        "- Free CountBot Coins",
+        "- Access ter beta features",
+        "- Much more comin' soon",
+        "",
+        " **Please contact us if ye'd like ter help!**"
+      ],
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
+    },
+    "info": {
+      "description": [
+        "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
+        "",
+        "**Progress:** {PROGRESS}%",
+        "**Authors:**",
+        "{AUTHORS}"
+      ]
+    }
+  },
+  "merge": {
+    "notagoal": {
+      "title": "Error 400 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! Please enter a valid number fer the goal. Example: `c;merge 500`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "setup": {
+      "title": "Count ter {GOAL}",
+      "description": [
+        "**{USER} just setup CountBot in this here channel!**",
+        "The goal be ter count ter {GOAL} Can ye do it?"
+      ],
+      "footer": {
+        "text": "Tip: Admins can make the challenge harder by changin' the slowmode."
+      }
+    }
+  },
+  "milestones": {
+    "title": "Milestones {ACTION}",
+    "description": [
+      "**Milestones have been {ACTION} fer this here countin' channel.** Ye can change this at any time by runnin' `c;milestones` again.",
+      "Action preformed by {USER}."
+    ]
+  },
+  "new": {
+    "invalidnumber": {
+      "title": "Error 400 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! Please enter a valid number. Example: `c;new 500`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "created": {
+      "title": "Countin' Channel Created",
+      "description": "**Look, a brand new channel - {CHANNEL}!** The goal be ter count ter {GOAL}, can ye make it?"
+    },
+    "newmessage": {
+      "rawtext": "A wild countin' channel appeared! **Start countin' with 1.**",
+      "title": "Count ter {GOAL}",
+      "description": [
+        "**{USER} just made a new countin' channel!**",
+        "The goal be ter count ter {GOAL}. Can ye do it?"
+      ],
+      "footer": "Tip: Admins can make the challenge harder by changin' the slowmode."
+    }
+  },
+  "ping": {
+    "start": {
+      "title": "Pingin'",
+      "description": "One second... <a:loading2:771440180250017832>"
+    },
+    "end": {
+      "title": "Pinged",
+      "description": [
+        "Ping pong, pong ping?",
+        "**{PING}ms**"
+      ]
+    }
+  },
+  "setgoal": {
+    "invalidnumber": {
+      "title": "Error 400 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! Please enter a valid number that be higher than the current goal. Example: `c;setgoal 500`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "extended": {
+      "title": "Goal extended",
+      "description": [
+        "**The goal of this here channel been changed!** The new goal be ter count ter {GOAL}.",
+        "Action preformed by {USER}."
+      ]
+    }
+  },
+  "shop": {
+    "mainmenu": {
+      "title": "Click Here ter go ter the Shop 🛒",
+      "url": "https://bremea.com/countbot/shop",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      },
+      "description": [
+        "**The CountBot Shop is available at [https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**",
+        "",
+        "Ye can do `c;shop [query]` ter search the shop fer items and get links ter buy them"
+      ]
+    }
+  },
+  "stats": {
+    "fetchingstats": {
+      "title": "Stats fer {USERTAG}",
+      "description": [
+        "Fetchin' stats, please wait... <a:loading2:771440180250017832>"
+      ]
+    }
+  },
+  "use": {
+    "noitemid": {
+      "title": "Error 400 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! Please enter an item id (run `c;inventory` to get a list of items in yer inventory and their IDs). Example: `c;use p-s5`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "notininventory": {
+      "title": "Error 404 <:uhh:810311297936785439>",
+      "description": [
+        "Shiver me timbers! It doesn't look like ye have any items in yer inventory that have the ID `{ITEM}` (ye can run `c;inventory` ter get a list of items in yer inventory and their IDs).",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  },
+  "vote": {
+    "title": "Click here ter vote fer CountBot",
+    "description": [
+      "**Vote fer CountBot & Get Cool Rewards!**",
+      "",
+      "<:uparrow:802686102254518322> **Voter Badge**",
+      "<a:coinspin:801831939626500166> **125 Coins**",
+      "<:bluesparkles:802686102153854976> **250 XP**"
+    ]
+  }
 }
